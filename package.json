@@ -1,0 +1,15 @@
+{
+  "name": "demo-typescript-for-javascript",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "npm run build -- --watch"
+  },
+  "keywords": [],
+  "author": "bas@basarat.com",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "4.5.4"
+  }
+}
